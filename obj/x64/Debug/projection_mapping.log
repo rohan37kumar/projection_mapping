@@ -1,0 +1,8 @@
+﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (obj\x64\Debug\) contains files shared from another project (ofxTest_KC.vcxproj).  This can lead to incorrect clean and rebuild behavior.
+  Scanning sources for module dependencies...
+  main.cpp
+LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
+     Creating library bin\projection_mapping_debug.lib and object bin\projection_mapping_debug.exp
+  projection_mapping.vcxproj -> C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\apps\myApps\projection_mapping\bin\projection_mapping_debug.exe
+  File not found - *.dll
+  0 File(s) copied
