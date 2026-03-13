@@ -3,10 +3,11 @@
 #include "ofApp_ControlWindow.h"
 #include "ofApp1.h"
 #include "ofApp2.h"
+#include "SharedSliceState.h"
 
 int main(){
 
-	bool discoveryMode = true;
+	bool discoveryMode = false;
 	if (discoveryMode) {
 		//ofInit();
 
@@ -23,26 +24,37 @@ int main(){
 		return 0;
 	}
 
+	auto sharedState = std::make_shared<SharedSliceState>();
+	sharedState->setupSlices(2);
+
 	// common settings for all windows
 	ofGLFWWindowSettings settings;
 	settings.setGLVersion(3, 2);
-	//settings.setSize(800, 500);
-	settings.windowMode = OF_FULLSCREEN;
-	settings.decorated = false;
+
+	// control window settings
+	settings.setSize(1280, 720);
+	settings.windowMode = OF_WINDOW;
+	settings.decorated = true;
+	settings.setPosition(ofVec2f(50, 50));
+	auto controlWindow = ofCreateWindow(settings);
 
 	// window 1 settings
+	settings.windowMode = OF_FULLSCREEN;
+	settings.decorated = false;
 	settings.setPosition(ofVec2f(50, 100));
 	settings.monitor = 0;
+	settings.shareContextWith = controlWindow;
 	auto window1 = ofCreateWindow(settings);
 
 	// window 2 settings
 	settings.setPosition(ofVec2f(2000, 200));
 	settings.monitor = 1;
-	settings.shareContextWith = window1;
+	settings.shareContextWith = controlWindow;
 	auto window2 = ofCreateWindow(settings);
 
-	ofRunApp(window1, std::make_shared<ofApp1>());
-	ofRunApp(window2, std::make_shared<ofApp2>());
+	ofRunApp(controlWindow, std::make_shared<ofApp_ControlWindow>(sharedState));
+	ofRunApp(window1, std::make_shared<ofApp1>(sharedState, 0));
+	ofRunApp(window2, std::make_shared<ofApp2>(sharedState, 1));
 
 	ofRunMainLoop();
 

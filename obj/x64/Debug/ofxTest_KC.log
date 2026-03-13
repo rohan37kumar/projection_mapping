@@ -1,5 +1,6 @@
 ﻿  Scanning sources for module dependencies...
-  ofApp1.cpp
+  main.cpp
+  ofApp_ControlWindow.cpp
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
      Creating library bin\ofxTest_KC_debug.lib and object bin\ofxTest_KC_debug.exp
   ofxTest_KC.vcxproj -> D:\kc\of_v0.12.1\of_v0.12.1_vs_64_release\apps\myApps\ofxTest_KC\bin\ofxTest_KC_debug.exe

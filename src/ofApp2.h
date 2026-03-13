@@ -3,10 +3,12 @@
 #include "ofMain.h"
 #include "ofxGui.h"
 #include "ofxWarp.h"
+#include "SharedSliceState.h"
 
 class ofApp2 : public ofBaseApp {
 
 public:
+	ofApp2(std::shared_ptr<SharedSliceState> sharedState, int sliceIndex);
 	void setup();
 	void update();
 	void draw();
@@ -26,12 +28,16 @@ public:
 
 	bool useBeginEnd;
 	ofxWarpController warpController;
-	ofTexture texture;
 	std::vector<ofRectangle> srcAreas;
-	int areaMode;
-	std::string areaName;
 
 	ofxPanel controlValuesPanel;
 	ofxIntField numControlsX;
 	ofxIntField numControlsY;
+
+private:
+	std::shared_ptr<SharedSliceState> sharedState;
+	int sliceIndex = 0;
+	bool warpInitialized = false;
+
+	void ensureWarpSetup();
 };

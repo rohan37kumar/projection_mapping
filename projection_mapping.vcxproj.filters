@@ -1,153 +1,163 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<ClCompile Include="src\ofApp.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\main.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\ofApp1.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="src\ofApp2.cpp">
-			<Filter>src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxColorPicker.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxInputField.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\Controller.cpp">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBase.cpp">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspective.cpp">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClCompile>
-		<ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspectiveBilinear.cpp">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClCompile>
-	</ItemGroup>
-	<ItemGroup>
-		<Filter Include="src">
-			<UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons">
-			<UniqueIdentifier>{41C1EBA9--4BB-1-45-04-B-994-BFF19C0966A5}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxGui">
-			<UniqueIdentifier>{9B2B92A7--18C-7-45-6C-9-B5A-097F92397213}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxGui\src">
-			<UniqueIdentifier>{231CB315--300-9-42-63-A-764-D51FA206C02A}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxWarp">
-			<UniqueIdentifier>{BFE544C9--069-0-45-08-B-7C5-B8FD7D944C3E}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxWarp\src">
-			<UniqueIdentifier>{7E5ED7CF--F6E-F-42-B2-8-2CB-38453E21DA8E}</UniqueIdentifier>
-		</Filter>
-		<Filter Include="addons\ofxWarp\src\ofxWarp">
-			<UniqueIdentifier>{B0C6B6BD--680-0-4E-80-8-5A7-860D3FED3B39}</UniqueIdentifier>
-		</Filter>
-	</ItemGroup>
-	<ItemGroup>
-		<ClInclude Include="src\ofApp.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\ofApp1.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="src\ofApp2.h">
-			<Filter>src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxColorPicker.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiUtils.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxInputField.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
-			<Filter>addons\ofxGui\src</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\Controller.h">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBase.h">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBilinear.h">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspective.h">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspectiveBilinear.h">
-			<Filter>addons\ofxWarp\src\ofxWarp</Filter>
-		</ClInclude>
-		<ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp.h">
-			<Filter>addons\ofxWarp\src</Filter>
-		</ClInclude>
-	</ItemGroup>
-	<ItemGroup>
-		<ResourceCompile Include="icon.rc" />
-	</ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\main.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\MonitorPortUtility.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp1.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp2.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ofApp_ControlWindow.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxBaseGui.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxButton.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxColorPicker.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxInputField.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxLabel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxPanel.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSlider.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxGui\src\ofxToggle.cpp">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\Controller.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBase.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspective.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspectiveBilinear.cpp">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{d8376475-7454-4a24-b08a-aac121d3ad6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons">
+      <UniqueIdentifier>{B2CF69DD--147-E-40-C0-8-C59-BED451426859}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui">
+      <UniqueIdentifier>{1A6A4D06--05E-6-49-E1-A-72C-326A92608C06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxGui\src">
+      <UniqueIdentifier>{B91D16A1--746-B-49-B5-A-9D0-E5ACA1E4A9C6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWarp">
+      <UniqueIdentifier>{BD073AF5--2FC-2-4E-52-A-5EA-DE0C9090F783}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWarp\src">
+      <UniqueIdentifier>{45D0678C--CE7-9-48-96-A-14F-DF334540CF96}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="addons\ofxWarp\src\ofxWarp">
+      <UniqueIdentifier>{EFD0735C--DF8-D-4B-95-B-A3A-5B7A3F41E333}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\MonitorPortUtility.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp1.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp2.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ofApp_ControlWindow.h">
+      <Filter>src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxBaseGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxButton.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxColorPicker.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGui.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxGuiUtils.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxInputField.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxLabel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxPanel.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSlider.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxSliderGroup.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxGui\src\ofxToggle.h">
+      <Filter>addons\ofxGui\src</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\Controller.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBase.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpBilinear.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspective.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp\WarpPerspectiveBilinear.h">
+      <Filter>addons\ofxWarp\src\ofxWarp</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\..\addons\ofxWarp\src\ofxWarp.h">
+      <Filter>addons\ofxWarp\src</Filter>
+    </ClInclude>
+    <ClInclude Include="src\SharedSliceState.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="icon.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
 </Project>

@@ -1,6 +1,432 @@
 ﻿C:\Program Files\Microsoft Visual Studio\2022\Community\MSBuild\Microsoft\VC\v170\Microsoft.CppBuild.targets(538,5): warning MSB8028: The intermediate directory (obj\x64\Debug\) contains files shared from another project (ofxTest_KC.vcxproj).  This can lead to incorrect clean and rebuild behavior.
   Scanning sources for module dependencies...
-  main.cpp
+  ofxBaseGui.cpp
+  ofxButton.cpp
+  ofxColorPicker.cpp
+  ofxGuiGroup.cpp
+  ofxInputField.cpp
+  ofxLabel.cpp
+  ofxPanel.cpp
+  ofxSlider.cpp
+  ofxSliderGroup.cpp
+  ofxToggle.cpp
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244: '=': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(216,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(216,44):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(492,46):
+          see reference to class template instantiation 'ofxColorPicker_<unsigned char>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(195,51):
+          while compiling class template member function 'ofMesh ofxColorPicker_<unsigned char>::getColorPoint(void)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(487,17):
+              see the first reference to 'ofxColorPicker_<unsigned char>::getColorPoint' in 'ofxColorPicker_<unsigned char>::generateDraw'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(217,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(226,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(227,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(369,43): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(369,43):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(804,36):
+          see reference to class template instantiation 'ofxInputField<float>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(351,65):
+          while compiling class template member function 'bool ofxInputField<float>::mousePressed(ofMouseEventArgs &)'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(246,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(246,44):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(237,52):
+          while compiling class template member function 'ofMesh ofxColorPicker_<unsigned char>::getColorWheel(void)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(486,17):
+              see the first reference to 'ofxColorPicker_<unsigned char>::getColorWheel' in 'ofxColorPicker_<unsigned char>::generateDraw'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(247,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(530,42): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(530,42):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(471,60):
+          while compiling class template member function 'bool ofxInputField<float>::keyPressed(ofKeyEventArgs &)'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(557,44): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(559,16): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(775,26): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(775,26):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(772,53):
+          while compiling class template member function 'void ofxInputField<float>::valueChanged(Type &)'
+          with
+          [
+              Type=float
+          ]
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(147,16):
+              see the first reference to 'ofxInputField<float>::valueChanged' in 'ofxInputField<float>::setup'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxInputField.cpp(129,7):
+              see the first reference to 'ofxInputField<float>::setup' in 'ofxInputField<float>::ofxInputField'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,41): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<3,float,glm::packed_highp>::length_type', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,41):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(68,34):
+          see reference to class template instantiation 'ofxVecSlider_<ofDefaultVec3>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(10,110):
+          while compiling class template member function 'ofxVecSlider_<ofDefaultVec3> *ofxVecSlider_<ofDefaultVec3>::setup(ofParameter<ofDefaultVec3>,float,float)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(6,10):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec3>::setup' in 'ofxVecSlider_<ofDefaultVec3>::ofxVecSlider_'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,49): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<3,float,glm::packed_highp>::length_type', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,57): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<3,float,glm::packed_highp>::length_type', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(58,54): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<3,float,glm::packed_highp>::length_type', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(58,54):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(53,58):
+          while compiling class template member function 'void ofxVecSlider_<ofDefaultVec3>::changeValue(VecType &)'
+          with
+          [
+              VecType=ofDefaultVec3
+          ]
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(18,16):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec3>::changeValue' in 'ofxVecSlider_<ofDefaultVec3>::setup'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(6,10):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec3>::setup' in 'ofxVecSlider_<ofDefaultVec3>::ofxVecSlider_'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,41): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<2,float,glm::packed_highp>::length_type', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,41):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(63,34):
+          see reference to class template instantiation 'ofxVecSlider_<ofDefaultVec2>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(10,110):
+          while compiling class template member function 'ofxVecSlider_<ofDefaultVec2> *ofxVecSlider_<ofDefaultVec2>::setup(ofParameter<ofDefaultVec2>,float,float)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(6,10):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec2>::setup' in 'ofxVecSlider_<ofDefaultVec2>::ofxVecSlider_'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,49): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<2,float,glm::packed_highp>::length_type', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,57): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<2,float,glm::packed_highp>::length_type', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(58,54): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<2,float,glm::packed_highp>::length_type', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(58,54):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(53,58):
+          while compiling class template member function 'void ofxVecSlider_<ofDefaultVec2>::changeValue(VecType &)'
+          with
+          [
+              VecType=ofDefaultVec2
+          ]
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(18,16):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec2>::changeValue' in 'ofxVecSlider_<ofDefaultVec2>::setup'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(6,10):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec2>::setup' in 'ofxVecSlider_<ofDefaultVec2>::ofxVecSlider_'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,41): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<4,float,glm::packed_highp>::length_type', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,41):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(73,34):
+          see reference to class template instantiation 'ofxVecSlider_<ofDefaultVec4>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(10,110):
+          while compiling class template member function 'ofxVecSlider_<ofDefaultVec4> *ofxVecSlider_<ofDefaultVec4>::setup(ofParameter<ofDefaultVec4>,float,float)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(6,10):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec4>::setup' in 'ofxVecSlider_<ofDefaultVec4>::ofxVecSlider_'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,49): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<4,float,glm::packed_highp>::length_type', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,57): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<4,float,glm::packed_highp>::length_type', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(58,54): warning C4267: 'argument': conversion from 'size_t' to 'glm::vec<4,float,glm::packed_highp>::length_type', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(58,54):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(53,58):
+          while compiling class template member function 'void ofxVecSlider_<ofDefaultVec4>::changeValue(VecType &)'
+          with
+          [
+              VecType=ofDefaultVec4
+          ]
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(18,16):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec4>::changeValue' in 'ofxVecSlider_<ofDefaultVec4>::setup'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(6,10):
+              see the first reference to 'ofxVecSlider_<ofDefaultVec4>::setup' in 'ofxVecSlider_<ofDefaultVec4>::ofxVecSlider_'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,41): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,41):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(78,32):
+          see reference to class template instantiation 'ofxVecSlider_<ofVec2f>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(10,110):
+          while compiling class template member function 'ofxVecSlider_<ofVec2f> *ofxVecSlider_<ofVec2f>::setup(ofParameter<ofVec2f>,float,float)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(6,10):
+              see the first reference to 'ofxVecSlider_<ofVec2f>::setup' in 'ofxVecSlider_<ofVec2f>::ofxVecSlider_'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,49): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(25,57): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(58,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(58,54):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(53,58):
+          while compiling class template member function 'void ofxVecSlider_<ofVec2f>::changeValue(VecType &)'
+          with
+          [
+              VecType=ofVec2f
+          ]
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(18,16):
+              see the first reference to 'ofxVecSlider_<ofVec2f>::changeValue' in 'ofxVecSlider_<ofVec2f>::setup'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxSliderGroup.cpp(6,10):
+              see the first reference to 'ofxVecSlider_<ofVec2f>::setup' in 'ofxVecSlider_<ofVec2f>::ofxVecSlider_'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(410,69): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(410,69):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(195,51):
+          while compiling class template member function 'ofMesh ofxColorPicker_<unsigned char>::getColorPoint(void)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(487,17):
+              see the first reference to 'ofxColorPicker_<unsigned char>::getColorPoint' in 'ofxColorPicker_<unsigned char>::generateDraw'
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(332,145):
+          while compiling class template member function 'void ofPolyline_<ofDefaultVertexType>::arc(const T &,float,float,float,float,bool,int)'
+          with
+          [
+              T=ofDefaultVertexType
+          ]
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244: 'initializing': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244:             PixelType=unsigned short
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(749,47):
+          see reference to class template instantiation 'ofColor_<unsigned short>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(30,5):
+          while compiling class template member function 'ofColor_<unsigned short>::ofColor_(void)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(60,22):
+              see the first reference to 'ofColor_<unsigned short>::ofColor_' in '`anonymous-namespace'::getCircularColor'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(330,10):
+              see the first reference to '`anonymous-namespace'::getCircularColor' in 'ofxColorPicker_<unsigned short>::setColorScale'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244: 'initializing': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244:             PixelType=unsigned short
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244: 'initializing': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244:             PixelType=unsigned short
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244: 'initializing': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244:             PixelType=unsigned short
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244: 'initializing': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(31,10):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(718,37):
+          see reference to class template instantiation 'ofColor_<unsigned char>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(30,5):
+          while compiling class template member function 'ofColor_<unsigned char>::ofColor_(void)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(60,22):
+              see the first reference to 'ofColor_<unsigned char>::ofColor_' in '`anonymous-namespace'::getCircularColor'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxGui\src\ofxColorPicker.cpp(330,10):
+              see the first reference to '`anonymous-namespace'::getCircularColor' in 'ofxColorPicker_<unsigned char>::setColorScale'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244: 'initializing': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(32,10): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244: 'initializing': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(33,10): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244: 'initializing': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(34,10): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(578,14): warning C4244: '=': conversion from 'int' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(578,14): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(578,14): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(578,14): warning C4244:             PixelType=float
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(578,14): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(578,14):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(713,31):
+          see reference to class template instantiation 'ofColor_<float>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(574,23):
+          while compiling friend function 'std::istream &operator >>(std::istream &,ofColor_<float> &)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\utils\ofUtils.h(732,5):
+              see the first reference to 'operator >>' in 'ofFromString'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofParameter.h(505,9):
+              see the first reference to 'ofFromString' in 'of::priv::fromStringImpl'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofParameter.h(980,17):
+              see the first reference to 'of::priv::fromStringImpl' in 'ofParameter<ofFloatColor>::fromString'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(581,14): warning C4244: '=': conversion from 'int' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(581,14): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(581,14): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(581,14): warning C4244:             PixelType=float
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(581,14): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(584,14): warning C4244: '=': conversion from 'int' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(584,14): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(584,14): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(584,14): warning C4244:             PixelType=float
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(584,14): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(587,14): warning C4244: '=': conversion from 'int' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(587,14): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(587,14): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(587,14): warning C4244:             PixelType=float
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(587,14): warning C4244:         ]
+  (compiling source file '../../../addons/ofxGui/src/ofxColorPicker.cpp')
+  
+  Controller.cpp
+  WarpBase.cpp
+  WarpBilinear.cpp
+  WarpPerspective.cpp
+  WarpPerspectiveBilinear.cpp
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244: '=': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         ]
+  (compiling source file '../../../addons/ofxWarp/src/ofxWarp/WarpBilinear.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244: '=': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         ]
+  (compiling source file '../../../addons/ofxWarp/src/ofxWarp/WarpBase.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244: '=': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         ]
+  (compiling source file '../../../addons/ofxWarp/src/ofxWarp/WarpPerspectiveBilinear.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244: '=': conversion from 'float' to 'PixelType', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         with
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         [
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:             PixelType=unsigned char
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\types\ofColor.h(735,6): warning C4244:         ]
+  (compiling source file '../../../addons/ofxWarp/src/ofxWarp/WarpPerspective.cpp')
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(279,31): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(285,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(293,31): warning C4267: '-=': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(299,22): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(344,59): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(345,61): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(346,54): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(445,28): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(445,63): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(449,33): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(449,68): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(679,14): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(701,15): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(185,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(198,13): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(291,69): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(293,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(298,69): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(300,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(305,69): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(307,75): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(312,69): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\Controller.cpp(314,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBase.cpp(532,129): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBase.cpp(534,127): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBase.cpp(557,139): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBase.cpp(558,137): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBase.cpp(562,73): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(410,69): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../../addons/ofxWarp/src/ofxWarp/WarpBase.cpp')
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(410,69):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBase.cpp(512,15):
+          see reference to class template instantiation 'ofPolyline_<ofDefaultVertexType>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(16,30):
+          while compiling class template member function 'ofPolyline_<ofDefaultVertexType>::ofPolyline_(void)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBase.cpp(512,15):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::ofPolyline_' in 'ofxWarp::WarpBase::setupControlPoints'
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(332,145):
+          while compiling class template member function 'void ofPolyline_<ofDefaultVertexType>::arc(const T &,float,float,float,float,bool,int)'
+          with
+          [
+              T=ofDefaultVertexType
+          ]
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.h(225,6):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::arc' in 'ofPolyline_<ofDefaultVertexType>::arc'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBase.cpp(513,18):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::arc' in 'ofxWarp::WarpBase::setupControlPoints'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(897,24): warning C4267: 'initializing': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../../addons/ofxWarp/src/ofxWarp/WarpBilinear.cpp')
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(897,24):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(483,16):
+          see reference to class template instantiation 'ofPolyline_<ofDefaultVertexType>' being compiled
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(16,30):
+          while compiling class template member function 'ofPolyline_<ofDefaultVertexType>::ofPolyline_(void)'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(483,16):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::ofPolyline_' in 'ofxWarp::WarpBilinear::setNumControlsX'
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(43,30):
+          while compiling class template member function 'void ofPolyline_<ofDefaultVertexType>::clear(void)'
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(890,60):
+          while compiling class template member function 'float ofPolyline_<ofDefaultVertexType>::getIndexAtLength(float) const'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(955,5):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::getIndexAtLength' in 'ofPolyline_<ofDefaultVertexType>::getPointAtLength'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(962,5):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::getPointAtLength' in 'ofPolyline_<ofDefaultVertexType>::getPointAtPercent'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(494,22):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::getPointAtPercent' in 'ofxWarp::WarpBilinear::setNumControlsX'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(1124,37): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../../addons/ofxWarp/src/ofxWarp/WarpBilinear.cpp')
+      C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(1124,37):
+      the template instantiation context (the oldest one first) is
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(138,43):
+          while compiling class template member function 'void ofPolyline_<ofDefaultVertexType>::setClosed(bool)'
+          C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(1121,54):
+          while compiling class template member function 'int ofPolyline_<ofDefaultVertexType>::getWrappedIndex(int) const'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(1199,11):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::getWrappedIndex' in 'ofPolyline_<ofDefaultVertexType>::updateCache'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(435,20):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::updateCache' in 'ofPolyline_<ofDefaultVertexType>::getPerimeter'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(961,18):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::getPerimeter' in 'ofPolyline_<ofDefaultVertexType>::getPointAtPercent'
+              C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\addons\ofxWarp\src\ofxWarp\WarpBilinear.cpp(494,22):
+              see the first reference to 'ofPolyline_<ofDefaultVertexType>::getPointAtPercent' in 'ofxWarp::WarpBilinear::setNumControlsX'
+  
+C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\libs\openFrameworks\graphics\ofPolyline.inl(1125,56): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file '../../../addons/ofxWarp/src/ofxWarp/WarpBilinear.cpp')
+  
 LINK : warning LNK4075: ignoring '/INCREMENTAL' due to '/FORCE' specification
      Creating library bin\projection_mapping_debug.lib and object bin\projection_mapping_debug.exp
   projection_mapping.vcxproj -> C:\DB_kc\openframeworks\of_v0.12.1_vs_64_release\apps\myApps\projection_mapping\bin\projection_mapping_debug.exe

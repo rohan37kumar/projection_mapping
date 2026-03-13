@@ -4,6 +4,7 @@
 #include "ofxGui.h"
 #include "ofxWarp.h"
 #include "MonitorPortUtility.h"
+#include "SharedSliceState.h"
 
 #include "ofJson.h"
 #include "GLFW/glfw3.h"
@@ -18,6 +19,7 @@ struct ProjectorSlot {
 class ofApp_ControlWindow : public ofBaseApp {
 
 public:
+	ofApp_ControlWindow(std::shared_ptr<SharedSliceState> sharedState);
 	void setup();
 	void update();
 	void draw();
@@ -37,4 +39,11 @@ public:
 
 	void listGPUPortsInfo();
 
+private:
+	std::shared_ptr<SharedSliceState> sharedState;
+	ofRectangle imageRect;
+	int activeEdgeIndex = -1;
+	float minEdgeSpacing = 0.02f;
+
+	void updateImageRect();
 };
