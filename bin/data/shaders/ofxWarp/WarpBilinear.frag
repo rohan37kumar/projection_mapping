@@ -54,4 +54,5 @@ void main(void)
 	{
 		fragColor = texColor * vColor;
 	}
+
 }

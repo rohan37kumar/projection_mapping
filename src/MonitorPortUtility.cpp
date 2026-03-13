@@ -48,7 +48,7 @@ std::vector<PortInfo> MonitorPortUtility::enumeratePorts() {
 		NULL
 	);
 
-	// Restore the thread DPI context immediately — we are done with Win32 display calls
+
 	SetThreadDpiAwarenessContext(previousDpiContext);
 
 	if (queryResult != ERROR_SUCCESS) {

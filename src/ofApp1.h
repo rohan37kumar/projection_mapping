@@ -1,43 +1,49 @@
 #pragma once
 
-#include "ofMain.h"
-#include "ofxWarp.h"
-#include "ofxGui.h"
 #include "SharedSliceState.h"
+#include "ofMain.h"
+#include "ofxGui.h"
+#include "ofxWarp.h"
 
-class ofApp1 : public ofBaseApp{
+class ofApp1 : public ofBaseApp {
+public:
+	ofApp1(std::shared_ptr<SharedSliceState> sharedState, int sliceIndex);
+	void setup();
+	void update();
+	void draw();
+	void exit();
 
-	public:
-		ofApp1(std::shared_ptr<SharedSliceState> sharedState, int sliceIndex);
-		void setup();
-		void update();
-		void draw();
-		void exit();
+	void keyPressed(int key);
+	void keyReleased(int key);
+	void mouseMoved(int x, int y);
+	void mouseDragged(int x, int y, int button);
+	void mousePressed(int x, int y, int button);
+	void mouseReleased(int x, int y, int button);
+	void mouseEntered(int x, int y);
+	void mouseExited(int x, int y);
+	void windowResized(int w, int h);
+	void dragEvent(ofDragInfo dragInfo);
+	void gotMessage(ofMessage msg);
 
-		void keyPressed(int key);
-		void keyReleased(int key);
-		void mouseMoved(int x, int y );
-		void mouseDragged(int x, int y, int button);
-		void mousePressed(int x, int y, int button);
-		void mouseReleased(int x, int y, int button);
-		void mouseEntered(int x, int y);
-		void mouseExited(int x, int y);
-		void windowResized(int w, int h);
-		void dragEvent(ofDragInfo dragInfo);
-		void gotMessage(ofMessage msg);
+	bool useBeginEnd;
+	ofxWarpController warpController;
+	std::vector<ofRectangle> srcAreas;
 
-		bool useBeginEnd;
-		ofxWarpController warpController;
-		std::vector<ofRectangle> srcAreas;
+	ofxPanel controlValuesPanel;
+	ofxIntField numControlsX;
+	ofxIntField numControlsY;
 
-		ofxPanel controlValuesPanel;
-		ofxIntField numControlsX;
-		ofxIntField numControlsY;
+private:
+	std::shared_ptr<SharedSliceState> sharedState;
+	int sliceIndex = 0;
+	bool warpInitialized = false;
+	std::string settingsFile;
 
-	private:
-		std::shared_ptr<SharedSliceState> sharedState;
-		int sliceIndex = 0;
-		bool warpInitialized = false;
+	void ensureWarpSetup();
 
-		void ensureWarpSetup();
+	void applyBlendToWarps(const SharedSliceState::BlendSettings & blend);
+
+	void copyWarpGeometryFrom(const ofJson & srcData);
+
+	void restoreWarpSizes();
 };
